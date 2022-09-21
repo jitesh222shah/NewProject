@@ -1,14 +1,17 @@
+  import { BrowserRouter } from 'react-router-dom';
+  import Routing from "../src/Routing/Routing"
+  import './App.css';
+import { pagesData } from './DummyData/DummyData';
+  
 
-import { BrowserRouter } from 'react-router-dom';
-import './App.css';
-import Routing from './Routing/Routing';
+  const  App= ()=> {
+    return (
 
-function App() {
-  return (
-   <BrowserRouter>
-   <Routing/>
-   </BrowserRouter>
-  );
-}
+    <BrowserRouter>
+    <Routing pagesData={pagesData}/>
+    </BrowserRouter>
 
-export default App;
+    );
+  }
+
+  export default App;
