@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import ButtomNavigation from '../Component/Navigation/ButtomNavigation'
 import Footer from '../Component/Foooter/Footer'
@@ -10,15 +10,21 @@ import Footer from '../Component/Foooter/Footer'
 // import { pagesData } from '../DummyData/DummyData'
 
 const Routing = ({pagesData}) => {
+    const[navData,setNavData]=useState([])
+    useEffect(()=>{
+        setNavData(pagesData)
+
+    },[pagesData])
     return (
         <>
 
             <div>
-                <ButtomNavigation pagesData={pagesData} />
+                <ButtomNavigation pagesData={navData} />
             </div>
-            {pagesData.map((each,index) => (
-                <Routes>
-                    <Route path={each.url} element={each.label} />
+           <div>
+           {navData.map((each,index) => (
+                <Routes key={index}>
+                    <Route path={each?.url} element={each?.label} />
                     {/* <Route path="/categories" element={<Categories />} />
                     <Route path="/politics" element={<Politics />} />
                     <Route path="/contact" element={<Contact />} /> */}
@@ -26,9 +32,12 @@ const Routing = ({pagesData}) => {
                 </Routes>
 
             ))}
+           </div>
 
 
-            <Footer />
+           <div>
+           <Footer />
+           </div>
 
 
         </>
