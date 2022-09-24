@@ -19,7 +19,7 @@ const Footer = () => {
 
           </div>
           <div className='footer-email-and-send-container'>
-            <div><InputField inputType={"email"} className="input-type-container" setPlaceholder={'Enter Your Email Address'} /></div>
+            <div><InputField inputType={"email"} className="input-type-container" setPlaceholder={'Enter Your Email Address'} inputTypeOne={true} /></div>
             <div> <SearchIcon icon={<FiSend fontSize={"large"} color="yellow" />} /></div>
           </div>
 

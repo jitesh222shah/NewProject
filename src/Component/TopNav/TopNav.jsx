@@ -17,7 +17,7 @@ const TopNav = () => {
                     <div >
                         {/* <input text={'text'} placeholder={'Search....'} /> 
                     */}
-                        <InputField inputType={'text'} setPlaceholder={'Click to Search... here'} />
+                        <InputField inputType={'text'} inputTypeTwo={true} setPlaceholder={'Click to Search... here'} />
                     </div>
                     <div >
                         <SearchIcon className='icon-btn'
