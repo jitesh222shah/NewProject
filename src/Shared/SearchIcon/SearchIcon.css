@@ -1,0 +1,10 @@
+.serach-btn-container{
+    outline: none;
+    border: none;
+   
+    border-radius: 12em;
+     height: 2.5em;
+     width: 4.5em;
+    background-color: rgb(69, 56, 56);
+   
+}

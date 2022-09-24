@@ -1,0 +1,9 @@
+/* .Home-main-container{
+    display: flex;
+} */
+.main-container{
+    display:flex;
+    justify-content: center;
+    gap: 5em;
+   
+}

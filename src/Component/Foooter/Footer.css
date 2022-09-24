@@ -1,0 +1,39 @@
+/* .main-container{
+    background-color: rgb(143, 133, 133);
+} */
+.Footer-main-container {
+    padding: 2em;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10em;
+    background-color: azure;
+}
+.footer-heading-and-email-container {
+    display: flex;
+    align-items: center;
+    gap: 18em;
+    margin-right: 5em;
+}
+.footer-heading-container {
+    margin-left: 10em;
+    text-align: left;
+}
+
+.footer-email-and-send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-type-container {
+    height: 2.5em;
+    font-size: 1em;
+    width: 15em;
+}
+
+.footer-end-container {
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+    
+}

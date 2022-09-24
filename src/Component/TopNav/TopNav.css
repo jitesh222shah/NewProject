@@ -1,0 +1,21 @@
+.TpoNav-main-main-container{
+    background-color: rgb(247, 235, 220);
+}
+
+.TopNav-container{
+    display: flex;
+    justify-content: center;
+    gap: 30em;
+    padding: 3em;
+    margin-left: 2em;
+  
+}
+/* .TpoNav-main-container{
+   
+} */
+.searchandicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

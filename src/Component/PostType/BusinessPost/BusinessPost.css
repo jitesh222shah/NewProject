@@ -1,0 +1,6 @@
+.business-image-label-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.descriptionLabel{
+    text-decoration: none;
+}
+.politics-image-description-container{
+    display: flex;
+    align-items: center;
+
+}
+.image-main-container{
+    height:10em;
+    width: 10em;
+}
