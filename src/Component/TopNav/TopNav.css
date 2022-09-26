@@ -5,9 +5,9 @@
 .TopNav-container{
     display: flex;
     justify-content: center;
-    gap: 30em;
+    gap: 50em;
     padding: 3em;
-    margin-left: 2em;
+
   
 }
 /* .TpoNav-main-container{

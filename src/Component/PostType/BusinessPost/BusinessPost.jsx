@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../../Assets/image.jpg'
+import image from '../../../Assets/illusion.jpg'
 import './BusinessPost.css'
 
 const BusinessPost = () => {
@@ -8,7 +8,7 @@ const BusinessPost = () => {
       <h2> Business</h2>
       <div className='business-image-label-container'>
         <div>
-          <img className='image-main-container' src={image} alt="Picture2" />
+          <img className='image-business-main-container' src={image} alt="Picture2" />
         </div>
         <div>
             <h4>Declared default values for our props</h4>

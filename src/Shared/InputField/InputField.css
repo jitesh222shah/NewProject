@@ -1,11 +1,13 @@
-.input-container{
-    padding:0.2em;
+.input-container {
+    padding: 0.2em;
     font-size: 1em;
     border-radius: 1em;
-    margin-right: 0.2em; 
-    
+    margin-right: 0.2em;
     
 }
-.input-type-container{
-    border-radius: 2em;
+
+.input-type-container {
+    border-bottom-right-radius: 5.5em;
+    border-top-left-radius: 1.5em;
+    background-color: bisque;
 }

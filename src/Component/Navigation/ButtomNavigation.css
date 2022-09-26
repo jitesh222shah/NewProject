@@ -1,11 +1,16 @@
-
-.navigation-main-container{
+.navigation-main-container {
     display: flex;
     justify-content: center;
-    gap:3em;
- 
+    gap: 3em;
+    font-size: 1.6em;
+    background-color: rgb(205, 201, 175);
+    height: 2.6em;
+    justify-content: center;
+    align-items: center;
 
 }
-.navigation-container{
+
+.navigation-container {
     text-decoration: none;
+
 }

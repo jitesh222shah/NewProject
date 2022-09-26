@@ -1,17 +1,30 @@
 import React from 'react'
+import  Label from '../../Label/Label'
 import './PoliticsPost.css'
-import image from '../../../Assets/image.jpg'
-const PoliticsPost = ({politicsData}) => {
+
+//import image from '../../../Assets/image.jpg'
+const PoliticsPost = ({ politicsImageData }) => {
   return (
     <>
-    <div className='politics-main-container'>
-      {politicsData.map((each,index)=>(
-        <figure>
-        <img src={each?.image} alt="Picture" />{each.imageDetail}
-        </figure>
-        
-      ))}
-       {/* <h2> Politics</h2>
+      <div className='politics-main-container'>
+        <Label LabelOne='Politics'/>
+        {politicsImageData.map((each, index) => (
+         
+          <div className='politics-main-container-politics'>
+            <div>
+              <figure>
+                <img className='plitics-image-container-politics' src={each.image} alt="" />
+              </figure>
+            </div>
+            <div>
+              <div><h4>{each.title}</h4></div>
+              <div>{each.imageDetail}</div>
+            </div>
+         <div></div>
+          </div>
+
+        ))}
+        {/* <h2> Politics</h2>
       <div className='politics-image-description-container'>
         
          <div >
@@ -31,7 +44,7 @@ const PoliticsPost = ({politicsData}) => {
           </label>
          </div>
       </div> */}
-    </div>
+      </div>
     </>
   )
 }

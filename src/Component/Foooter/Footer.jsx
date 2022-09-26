@@ -2,6 +2,8 @@ import React from 'react'
 import InputField from '../../Shared/InputField/InputField'
 import SearchIcon from '../../Shared/SearchIcon/SearchIcon'
 import { FiSend } from 'react-icons/fi'
+import {AiFillYoutube} from 'react-icons/ai'
+import {FcGoogle} from 'react-icons/fc'
 
 import './Footer.css'
 const Footer = () => {
@@ -26,8 +28,14 @@ const Footer = () => {
         </div>
         <div className='footer-end-container'>
         <p >Thank for visiting to Our Pages</p>
+        </div>
+       <div className='social-sites-container'>
+        {/* <h3>Some Sites</h3> */}
+       <a href="https://www.youtube.com/">{<AiFillYoutube/>}</a>
+        <a href='https://www.google.com/'>{<FcGoogle/>}</a>
 
-      </div>
+       </div>
+      
 
       </div>
       

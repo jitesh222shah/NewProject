@@ -35,5 +35,16 @@
     text-align: center;
     text-decoration: underline;
     font-size: larger;
-    
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.social-sites-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }

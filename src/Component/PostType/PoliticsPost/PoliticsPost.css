@@ -1,12 +1,9 @@
-.descriptionLabel{
-    text-decoration: none;
-}
-.politics-image-description-container{
+.politics-main-container-politics{
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
-.image-main-container{
-    height:10em;
+.plitics-image-container-politics{
+    height: 10em;
     width: 10em;
 }
