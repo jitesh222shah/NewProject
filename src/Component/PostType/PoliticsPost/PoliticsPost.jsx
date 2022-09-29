@@ -3,14 +3,14 @@ import  Label from '../../Label/Label'
 import './PoliticsPost.css'
 
 //import image from '../../../Assets/image.jpg'
-const PoliticsPost = ({ politicsImageData }) => {
+const PoliticsPost = ({ politicsDummyData }) => {
   return (
     <>
       <div className='politics-main-container'>
         <Label LabelOne='Politics'/>
-        {politicsImageData.map((each, index) => (
+        {politicsDummyData.map((each, index) => (
          
-          <div className='politics-main-container-politics'>
+          <div key={index} className='politics-main-container-politics'>
             <div>
               <figure>
                 <img className='plitics-image-container-politics' src={each.image} alt="" />

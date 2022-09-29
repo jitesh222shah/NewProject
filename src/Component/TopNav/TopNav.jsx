@@ -2,6 +2,8 @@ import React from 'react'
 import InputField from '../../Shared/InputField/InputField'
 import SearchIcon from '../../Shared/SearchIcon/SearchIcon'
 import { FiSearch } from "react-icons/fi";
+import { BsInstagram } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
 
 //import SearchIcon from '../../Shared/SearchIcon/SearchIcon'
 //import {FiSearch} from 'react-icons/fi'
@@ -14,6 +16,11 @@ const TopNav = () => {
                     <h1> Merenda</h1>
                 </div>
                 <div className='searchandicon'>
+                    <div className='social-sites-container'>
+                        <a href='http://www.facebook.com'><SearchIcon icon={<FaFacebookF color='blue' />} /></a>
+                        <SearchIcon icon={<BsInstagram color='red' />} />
+                    </div>
+
                     <div >
                         {/* <input text={'text'} placeholder={'Search....'} /> 
                     */}

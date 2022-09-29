@@ -5,7 +5,7 @@
 .TopNav-container{
     display: flex;
     justify-content: center;
-    gap: 50em;
+    gap: 30em;
     padding: 3em;
 
   
@@ -17,5 +17,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
+}
+.social-sites-container{
+    display: flex;
+    gap: 0.7em;
 
 }

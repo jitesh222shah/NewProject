@@ -7,3 +7,10 @@
 .image-business-main-container{
     height: 10em;
 }
+.business-image-container{
+    height: 12em;
+    width: 12em;
+}
+.business-main-container{
+    display: flex;
+}

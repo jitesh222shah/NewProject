@@ -1,0 +1,24 @@
+/* 
+.body {
+    background-color: green;
+} */
+  
+.caresol-main-container-caresol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: rgb(174, 139, 96);
+}
+.caresol-image{
+    height: 25em;
+    width:25em;
+    margin-left: 4em;
+    ;
+}
+.jitesh{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+}

@@ -1,7 +1,15 @@
-.label-main-container{
-  border-radius: 2em;
-font-size: large;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-border: 1em;
+.label-main-container {
+  border-radius: 4em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 12em;
+  height: 2.5em;
+  margin: 2em;
+  background-color: rgb(189, 205, 243);
+  box-shadow: 0.3em 0.5em 0.5em #F4AAB9;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1em;
 
 }

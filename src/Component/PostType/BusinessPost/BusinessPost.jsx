@@ -1,29 +1,28 @@
 import React from 'react'
-import image from '../../../Assets/illusion.jpg'
+//import image from '../../../Assets/illusion.jpg'
+import Label from '../../Label/Label'
 import './BusinessPost.css'
 
-const BusinessPost = () => {
+const BusinessPost = ({businessDummyData}) => {
   return (
-    <div className='business-main-container'>
-      <h2> Business</h2>
-      <div className='business-image-label-container'>
-        <div>
-          <img className='image-business-main-container' src={image} alt="Picture2" />
+
+    <div >
+      <Label LabelOne='Business' />
+      {businessDummyData.map((each, index) => (
+        <div key={index} className='business-main-container'>
+          <div><figure><img className='business-image-container' src={each.image} alt=""/></figure></div>
+          <div>
+            <div><h4>{each.title}</h4></div>
+            <div>
+              {each.imageDetail}
+            </div>
+          </div>
         </div>
-        <div>
-            <h4>Declared default values for our props</h4>
-          <label htmlFor="" className="descriptionLabel">
-            Just at the end of the code before the component was exported, we
-            declared default values for our props. To do that, we started with
-            the component's name and a dot/period connecting it with
-            defaultProps which is built in when you create a React app. Now,
-            wherever we import this component, those values will be the initial
-            values instead of being blank. When you pass in data to the child
-            component like we did in previous sections, it overrides the default
-            values.
-          </label>
-        </div>
-      </div>
+
+
+      ))}
+
+
     </div>
   )
 }

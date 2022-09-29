@@ -4,6 +4,7 @@ import SearchIcon from '../../Shared/SearchIcon/SearchIcon'
 import { FiSend } from 'react-icons/fi'
 import {AiFillYoutube} from 'react-icons/ai'
 import {FcGoogle} from 'react-icons/fc'
+import {FaFacebookF} from 'react-icons/fa'
 
 import './Footer.css'
 const Footer = () => {
@@ -33,7 +34,7 @@ const Footer = () => {
         {/* <h3>Some Sites</h3> */}
        <a href="https://www.youtube.com/">{<AiFillYoutube/>}</a>
         <a href='https://www.google.com/'>{<FcGoogle/>}</a>
-
+        <a href="https://www.facebook.com/">{<FaFacebookF/>}</a>
        </div>
       
 
