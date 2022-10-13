@@ -3,7 +3,7 @@ import './Label.css'
 const Label = ({LabelOne="Enter"}) => {
   return (
     <div className='label-main-container' >
-        < p >{LabelOne }</p>
+        < p className='label-text'>{LabelOne }</p>
         </div>
   )
 }

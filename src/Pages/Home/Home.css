@@ -4,9 +4,13 @@
 .politics-and-business-main-container{
     display:flex;
     justify-content: center;
-    gap: 5em;
+    
    
 }
 .recent-and-popular-main-container{
     display: flex;
+}
+.carosel-home-container{
+    margin: 0 auto;
+    width: 80%;
 }

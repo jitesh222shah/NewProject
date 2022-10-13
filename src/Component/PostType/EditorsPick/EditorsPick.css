@@ -1,0 +1,16 @@
+.editorsPick-main-container{
+    display: flex; gap: 1em;
+    justify-content: center;
+    text-align: justify;
+    margin: 4em;
+}
+.editorsPick-image-container{
+    width: 10em;
+    height: 10em;
+}
+.editorsPick-image-and-title-detail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}

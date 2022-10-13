@@ -1,12 +1,13 @@
 .TpoNav-main-main-container{
-    background-color: rgb(247, 235, 220);
+    background-color: rgb(239, 209, 173);
+
 }
 
 .TopNav-container{
     display: flex;
     justify-content: center;
     gap: 30em;
-    padding: 3em;
+    padding: 2em;
 
   
 }

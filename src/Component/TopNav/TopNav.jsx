@@ -17,8 +17,12 @@ const TopNav = () => {
                 </div>
                 <div className='searchandicon'>
                     <div className='social-sites-container'>
-                        <a href='http://www.facebook.com'><SearchIcon icon={<FaFacebookF color='blue' />} /></a>
-                        <SearchIcon icon={<BsInstagram color='red' />} />
+                        <a href='http://www.facebook.com'>
+                            <SearchIcon icon={<FaFacebookF color='blue' />} />
+                        </a>
+                        <a href="http://www.instagram.com">
+                            <SearchIcon icon={<BsInstagram color='red' />} />
+                        </a>
                     </div>
 
                     <div >

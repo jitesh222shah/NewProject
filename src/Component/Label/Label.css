@@ -1,6 +1,6 @@
 .label-main-container {
   border-radius: 4em;
-  text-align: center;
+  
   align-items: center;
   justify-content: center;
   width: 12em;
@@ -12,4 +12,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 1em;
 
+}
+.label-text{
+  text-align: center;
 }

@@ -15,7 +15,8 @@ const Routing = ({ pagesData }) => {
         },[pagesData])
     return (
         <>
-            <div>
+           <div className='routing-main-container'>
+           <div>
                 <TopNav />
             </div>
             <div>
@@ -40,6 +41,7 @@ const Routing = ({ pagesData }) => {
             </div>
 
 
+           </div>
         </>
     )
 }
