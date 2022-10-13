@@ -1,0 +1,8 @@
+.popularPost-main-container{
+    display: flex;
+    gap: 1em;
+}
+.popular-image-container{
+    height: 10em;
+    width: 10em;
+}
