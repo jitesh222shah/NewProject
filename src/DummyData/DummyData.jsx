@@ -1,9 +1,8 @@
 import Home from '../Pages/Home/Home'
 import Categories from '../Pages/Categories/Categories'
-import Business from '../Pages/Business/Business'
+
 import Politics from '../Pages/Politics/Politics'
-import Health from '../Pages/Health/Health'
-import Design from  '../Pages/Design/Design'
+
 import Sport from '../Pages/Sport/Sport'
 import Contact from '../Pages/Contact/Contact'
 import image1 from '../Assets/image1.jpg'
@@ -16,7 +15,7 @@ const pagesData=[
     component:<Home/>
     },
     
-    {
+     {
         label:"Categories",
         url:"/categories",
         component:<Categories/>
@@ -26,21 +25,21 @@ const pagesData=[
         url:"/Politics",
         component:<Politics />
     },
-    {
-        label:"Business",
-        url:"/business",
-        component:<Business/>
-    },
-    {
-        label:"Health",
-        url:"/health",
-        component:<Health/>
-    },
-    {
-        label:"Design",
-        url:"/design",
-        component:<Design/>
-    },
+ // {
+    //     label:"Business",
+    //     url:"/business",
+    //     component:<Business/>
+    // },
+    // {
+    //     label:"Health",
+    //     url:"/health",
+    //     component:<Health/>
+    // },
+    // {
+    //     label:"Design",
+    //     url:"/design",
+    //     component:<Design/>
+    // },
     {
         label:"Sport",
         url:"/sport",

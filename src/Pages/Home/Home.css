@@ -12,5 +12,8 @@
 }
 .carosel-home-container{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+}
+.editors-choice-and-trending-main-container{
+    display: flex;
 }

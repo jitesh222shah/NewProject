@@ -5,12 +5,21 @@
     margin: 4em;
 }
 .editorsPick-image-container{
-    width: 10em;
-    height: 10em;
+    width: 7em;
+    height: 7em;
 }
 .editorsPick-image-and-title-detail-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
+   
+}
+.editors-left-main-container{
+    gap: 2em;
+}
+.image-left-main-container{
+  height: 15em;
+  width: 25em;
+    
 }

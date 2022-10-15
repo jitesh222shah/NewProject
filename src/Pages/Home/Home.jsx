@@ -8,15 +8,17 @@ import { politicsImageData } from '../../DummyData/DummyData'
 import RecentNews from '../../Component/PostType/RecentNews/RecentNews'
 import PopularPost from '../../Component/PostType/PopularPost/PopularPost'
 import EditorsPick from '../../Component/PostType/EditorsPick/EditorsPick'
+import Trending from '../../Component/PostType/Trending/Trending'
 const Home = () => {
   return (
     <>
       <div className='Home-main-container'>
         <div className='carosel-home-container'>
-        <CaresolDoc DataFromCarosel={politicsImageData} />
+          <CaresolDoc DataFromCarosel={politicsImageData} />
         </div>
-        <div>
-          <EditorsPick editorsPickData={politicsImageData}/>
+        <div className='editors-choice-and-trending-main-container'>
+          <div> <EditorsPick editorsPickData={politicsImageData} /></div>
+          <div><Trending trendindData={politicsImageData}/></div>
         </div>
         <div className='politics-and-business-main-container'>
           <div className='politics-main-container'>
@@ -27,8 +29,8 @@ const Home = () => {
           </div>
         </div>
         <div className='recent-and-popular-main-container'>
-          <div><RecentNews recentNewsData={politicsImageData}/></div>
-          <div><PopularPost popularPostData={politicsImageData}/></div>
+          <div><RecentNews recentNewsData={politicsImageData} /></div>
+          <div><PopularPost popularPostData={politicsImageData} /></div>
 
         </div>
       </div>
