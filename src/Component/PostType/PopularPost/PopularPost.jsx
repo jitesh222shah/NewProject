@@ -4,7 +4,7 @@ import './PopularPost.css'
 const PopularPost = ({popularPostData}) => {
   return (
     <div>
-        <Label LabelOne='Popular Post'/>
+        <div><Label LabelOne='Popular Post'/></div>
         {popularPostData.map((each, index)=>(
             <div className='popularPost-main-container'>
                 <div>

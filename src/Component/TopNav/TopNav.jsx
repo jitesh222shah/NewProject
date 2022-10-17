@@ -32,7 +32,7 @@ const TopNav = () => {
                     </div>
                     <div >
                         <SearchIcon className='icon-btn'
-                            icon={<FiSearch fontSize={"large"} color="white" />}
+                            icon={<FiSearch fontSize={"1.8em"} color="white" />}
                         />
                     </div>
                 </div>

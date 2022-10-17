@@ -1,25 +1,27 @@
 import React from 'react'
 import Label from '../../Label/Label'
 
-const Trending = ({trendindData}) => {
+const Trending = ({ trendindData }) => {
   return (
     <div>
-        <Label  LabelOne='Trending'/>
-        <div>
-          {trendindData.map((each,index)=>(
-            <div>
-              
-              {each.title}
-              <p>It's me trending</p>
-            </div>
-
-          ))}
+      <Label LabelOne='Trending' />
+      <div>
+        {trendindData.map((each, index) => (
           <div>
 
-          </div>
-        </div>
+            <h4>  {each.title}</h4>
+            <p>{each.imageDetail}</p>
 
-   
+
+          </div>
+
+        ))}
+        <div>
+
+        </div>
+      </div>
+
+
     </div>
   )
 }
